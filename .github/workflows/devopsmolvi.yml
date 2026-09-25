@@ -34,6 +34,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ecs-task.json
-          service: node-app-srv-1
-          cluster: node-app-dev
+          service: service-replit-app
+          cluster: cluster-replit-app
           wait-for-service-stability: true        

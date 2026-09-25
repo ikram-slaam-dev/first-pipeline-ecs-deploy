@@ -1,11 +1,11 @@
 {
-  "family": "node-app-tasks",
+  "family": "fg-only-task-demo",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::559050236729:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::030157669057:user/ikram",
   "containerDefinitions": [
     {
-      "name": "node-web-app",
-      "image": "559050236729.dkr.ecr.us-east-1.amazonaws.com/dev/nodeimages:latest",
+      "name": "replit-app",
+      "image": "030157669057.dkr.ecr.us-east-1.amazonaws.com/replit-app:latest",
       "essential": true,
       "portMappings": [
         {
