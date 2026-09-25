@@ -1,0 +1,176 @@
+```css
+/* ------------------------------
+   Global
+------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0f172a;
+    color: #f8fafc;
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: #111827;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* ------------------------------
+   Headings & Text
+------------------------------ */
+
+h1,
+h2 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 16px;
+    color: #cbd5e1;
+}
+
+/* ------------------------------
+   Jumbotron / Hero Section
+------------------------------ */
+
+.jumbotron {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 70px 25px;
+    margin-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.jumbotron p {
+    color: #e0ecff;
+    font-size: 22px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* ------------------------------
+   Buttons
+------------------------------ */
+
+.btn-primary {
+    display: inline-block;
+    color: #ffffff;
+    background: #2563eb;
+    border: 1px solid #60a5fa;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #ffffff;
+    background: #1d4ed8;
+    border-color: #93c5fd;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
+}
+
+/* ------------------------------
+   Images / Video / Audio
+------------------------------ */
+
+img,
+video,
+audio {
+    display: block;
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+img,
+video {
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------------------
+   Captions
+------------------------------ */
+
+div.caption {
+    float: left;
+    clear: both;
+    color: #cbd5e1;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* ------------------------------
+   Links
+------------------------------ */
+
+a {
+    color: #60a5fa;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #93c5fd;
+}
+
+/* ------------------------------
+   Responsive Design
+------------------------------ */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .jumbotron {
+        padding: 50px 20px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.2rem;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    img,
+    video {
+        max-width: 100%;
+    }
+}
+```
