@@ -1,7 +1,7 @@
 {
   "family": "fg-only-task-demo",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::030157669057:user/ikram",
+  "executionRoleArn": "arn:aws:iam::030157669057:role/ecsTaskExecutionRole2",
   "containerDefinitions": [
     {
       "name": "replit-app",
