@@ -4,13 +4,13 @@
   "executionRoleArn": "arn:aws:iam::030157669057:role/ecsTaskExecutionRole2",
   "containerDefinitions": [
     {
-      "name": "my-profile",
-      "image": "030157669057.dkr.ecr.us-east-1.amazonaws.com/replit-app:latest",
+      "name": "replit-app",
+      "image": "030157669057.dkr.ecr.us-east-1.amazonaws.com/ecr-repo-replit-app:latest",
       "essential": true,
       "portMappings": [
         {
-          "containerPort": 80,
-          "hostPort": 80,
+          "containerPort": 8080,
+          "hostPort": 8080,
           "protocol": "tcp"
         }
       ]
