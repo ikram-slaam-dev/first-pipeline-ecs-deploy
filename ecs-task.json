@@ -1,5 +1,5 @@
 {
-  "family": "fg-only-task-demo",
+  "family": "task-definition-replit-app",
   "networkMode": "awsvpc",
   "executionRoleArn": "arn:aws:iam::030157669057:role/ecsTaskExecutionRole2",
   "containerDefinitions": [
