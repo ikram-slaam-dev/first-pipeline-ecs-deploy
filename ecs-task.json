@@ -4,7 +4,7 @@
   "executionRoleArn": "arn:aws:iam::030157669057:role/ecsTaskExecutionRole2",
   "containerDefinitions": [
     {
-      "name": "replit-app",
+      "name": "my-profile",
       "image": "030157669057.dkr.ecr.us-east-1.amazonaws.com/replit-app:latest",
       "essential": true,
       "portMappings": [
